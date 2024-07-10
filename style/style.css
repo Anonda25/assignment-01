@@ -354,15 +354,16 @@ nav li button {
 /* supert-section-container start */
 .support-section-container {
     width: 1140px;
-    height: 600px;
+    height: 314px;
     margin: 0 auto;
-    background-image: url("../assets/handshake.jpg");
+    /* background-image: url("../assets/handshake.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
     align-items: center;
     border-radius: 16px;
-    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+    background-position-y: center;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../assets/handshake.jpg);
 }
 
 .support-content {
@@ -374,7 +375,7 @@ nav li button {
 }
 
 .support-title {
-    margin-top: 250px;
+    margin-top: 50px;
     color: rgb(255, 255, 255);
     font-size: 32px;
     font-weight: 700;
