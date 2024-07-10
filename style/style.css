@@ -6,7 +6,7 @@
     margin: 0px;
     padding: 0px;
 }
-
+/* start */
 body {
     font-family: "Azeret Mono", monospace;
     max-width: 1550px;
@@ -97,7 +97,8 @@ nav li button {
     font-weight: 600;
     margin-top: px;
 }
-
+/* end */
+/* start */
 .main-section {
     width: 1240px;
     height: 1495px;
@@ -180,3 +181,37 @@ nav li button {
 .img-style-section {
     margin-left: 40px;
 }
+/* end */
+/* start */
+.inspiration-section-container {
+    width: 1240px;
+    height: 677px;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+
+.youtube-section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.yt-head {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin: 30px;
+}
+
+.yt-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 26px;
+}
+/* end */
